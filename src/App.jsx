@@ -14,24 +14,24 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
+      "Are you sure Bbh?",
       "Really sure?",
       "Think again!",
       "Last chance!",
       "Surely not?",
       "You might regret this!",
-      "Give it another thought!",
+      "Give it another thought ptyo!",
       "Are you absolutely certain?",
       "This could be a mistake!",
       "Have a heart!",
-      "Don't be so cold!",
+      "Don't be so cold Ashu!",
       "Change of heart?",
       "Wouldn't you reconsider?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Plzz? :( You're breaking my heart",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
